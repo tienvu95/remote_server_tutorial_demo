@@ -11,7 +11,7 @@ Have ready:
 
 ---
 
-## 1. Connect to the server
+## 1. Connect to the server (TBD, not sure mode of connection)
 
 ### Terminal
 ```bash
@@ -62,8 +62,8 @@ ls
 ## 3. Clone the repo
 If the repo is public:
 ```bash
-git clone https://github.com/YOUR_GITHUB_USERNAME/remote-server-demo.git
-cd remote-server-demo
+git clone https://github.com/tienvu95/remote_server_tutorial_demo.git
+cd remote_server_tutorial_demo
 ```
 
 If students need their own copy, the cleanest workflow is:
@@ -126,22 +126,22 @@ Open the provided notebook: `remote_demo.ipynb`
 ### Download from server to local with `scp`
 Run on your local machine:
 ```bash
-scp YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote-server-demo/student_notes.txt .
+scp YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote_server_tutorial_demo/student_notes.txt .
 ```
 
 ### Upload from local to server with `scp`
 ```bash
-scp sample_local_upload.txt YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote-server-demo/
+scp sample_local_upload.txt YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote_server_tutorial_demo/
 ```
 
 ### `rsync`
 Download:
 ```bash
-rsync -avz YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote-server-demo/student_notes.txt .
+rsync -avz YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote_server_tutorial_demo/student_notes.txt .
 ```
 Upload:
 ```bash
-rsync -avz sample_local_upload.txt YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote-server-demo/
+rsync -avz sample_local_upload.txt YOUR_ANDREW_ID@TBD_SERVER_HOST:~/YOUR_ANDREW_ID/tutorial-demo/remote_server_tutorial_demo/
 ```
 
 ---
